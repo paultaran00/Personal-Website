@@ -1,0 +1,84 @@
+
+
+#demo {
+  right: 70px;
+  top: -30px;
+  width: 90vh;
+  height: auto;
+  max-width: 400px;
+
+  opacity: 1;
+  z-index: 1002;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#icons path {
+  fill: white;
+}
+
+#stretchy {
+  fill: #5da662;
+  opacity: 0.5;
+}
+
+text {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+#icons g {
+  cursor: pointer;
+}
+
+#icons rect {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 2px;
+  rx: 8px;
+  ry: 8px;
+}
+
+.logo{
+  position: absolute;
+  width: 200px;
+  top: 20px;
+  left: 10px;
+}
+
+
+/* @media only screen and (min-width: 900px) {
+  .buttons-container {
+    top: 20%;
+    left: -120px;
+    width: 350px;
+    height: 100px;
+  }
+
+  ul li {
+    margin: 2px;
+    height: 90px;
+    width: 82px;
+  }
+
+  ul li a {
+    font-size: 35px;
+  }
+} */
+
+
+
+@media only screen and (max-width: 700px) {
+  #demo{
+    width: 100vw;
+    left: -10px;
+  }
+
+
+  .social{
+    top: 80px;
+    right: 10px;
+  }
+}
