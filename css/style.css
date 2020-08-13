@@ -42,59 +42,61 @@ body {
 
 
 
-h1{
+h1 {
 	position: absolute;
 	top: 25%;
 	color: #ffffff;
 	font-size: 25vh;
 	font-family: "bebas_neuebold", sans-serif;
-    font-weight: normal;
+	font-weight: normal;
 	font-style: normal;
 	text-transform: uppercase;
 	line-height: .75;
 	overflow-y: hidden;
 	margin-bottom: 1.66667rem;
 	padding: 0 2rem;
+	z-index: 2;
+	left: 0px;
 }
 
 .highlight-word {
-    position: relative;
+	position: relative;
 }
 
 
 
 .highlight-word::before {
-    height: 45px;
-    position: absolute;
-    top: 50%;
-    margin-top: -22px;
-    display: block;
-    z-index: 1;
+	height: 45px;
+	position: absolute;
+	top: 50%;
+	margin-top: -22px;
+	display: block;
+	z-index: 1;
 }
 
 .highlight-word::before {
-    width: 104%;
-    left: -2%;
-    background-image: linear-gradient(135deg,#5EFCE8 10%,#736EFE 100%);
+	width: 104%;
+	left: -2%;
+	background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
 	content: '';
 }
 
 .highlight-word .highlight-inner {
-    position: relative;
-    z-index: 3;
+	position: relative;
+	z-index: 3;
 }
 
 
-.l_h1{
+.l_h1 {
 	position: absolute;
 	top: 67%;
 	display: block;
-	font-family: "bebas_neuebook",sans-serif;
-    color: #fff;
-    max-width: 600px;
-    opacity: .8;
-    font-size: 1.5em;
-    letter-spacing: 1px;
+	font-family: "bebas_neuebook", sans-serif;
+	color: #fff;
+	max-width: 600px;
+	opacity: .8;
+	font-size: 1.5em;
+	letter-spacing: 1px;
 	line-height: 1;
 	overflow-y: hidden;
 	padding: 0 2rem;
@@ -102,52 +104,66 @@ h1{
 	font-style: normal;
 	text-transform: uppercase;
 	line-height: .80;
-    
+	z-index: 2;
+	left: 0vh;
 }
 
-.social{
+.social {
 	color: #fff;
 	position: absolute;
-	margin-left: 2rem;
+	margin-left: 2vw;
 	display: inline-block;
 	top: 95%;
-	
+
 }
 
 .social a:first-child {
 	padding-left: 0;
 }
 
-.social a{
-		text-decoration: none;
-		color: #fff;
-		padding: 0rem 3rem;
-		text-transform: uppercase;
-		font-family: "mulibold",sans-serif;
-		font-size: 13px;
-		letter-spacing: 1px;
-		position: relative;
-		display: inline-block;
+.social a:last-child {
+	padding-right: 0;
 }
 
-a{
+.social a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0rem 3rem;
+	text-transform: uppercase;
+	font-family: "mulibold", sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	position: relative;
+	display: inline-block;
+}
+
+a {
 	transition: all .2s linear;
-    -moz-transition: all .2s linear;
-    -webkit-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    text-decoration: none;
-    color: #1573dd;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	text-decoration: none;
+	color: #1573dd;
 }
 
-.social a span::before{
+.social a span::before {
 	width: 104%;
-    left: -2%;
-    background-image: linear-gradient(135deg,#5EFCE8 10%,#736EFE 100%);
-    content: '';
+	left: -2%;
+	background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
+	content: '';
 }
 
 
+.par {
+	top: 100%;
+	position: absolute;
+	display: inline;
+	text-align: center;
+	align-items: center;
+	border-bottom: 5px solid rebeccapurple;
+	color: yellow;
 
+}
 
 
 
@@ -192,6 +208,126 @@ a{
 
 
 
+/* MENU&LOGO------------------------------------------ */
+
+
+
+
+
+
+
+
+
+#demo {
+	right: 9vw;
+	top: -30px;
+	width: 90vh;
+	height: auto;
+	max-width: 400px;
+
+	opacity: 1;
+	z-index: 1002;
+	position: fixed;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#icons path {
+	fill: white;
+}
+
+#stretchy {
+	fill: #5da662;
+	opacity: 0.5;
+}
+
+text {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	fill: rgba(255, 255, 255, 0.5);
+}
+
+#icons g {
+	cursor: pointer;
+}
+
+#icons rect {
+	fill: transparent;
+	stroke: rgba(255, 255, 255, 0.15);
+	stroke-width: 2px;
+	rx: 8px;
+	ry: 8px;
+}
+
+.logo {
+	position: absolute;
+	width: 200px;
+	top: 20px;
+	left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* ANIM_HOME------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+.wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 1px;
+	height: 76vh;
+	/* left: 77vw; */
+	margin-left: 77vw;
+	overflow-x: hidden;
+
+}
+
+.el {
+	position: fixed;
+	opacity: 1;
+	width: 2px;
+	height: 24vh;
+	/* margin-top: -12vh; */
+	transform-origin: 50% 100%;
+	background: white;
+	overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SCROLLBAR------------------------------------------ */
+
+
+
+
 
 
 body::-webkit-scrollbar {
@@ -204,4 +340,62 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
 	background: #5da662;
+}
+
+
+
+
+
+
+
+
+/* MOBILE------------------------------------------------ */
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+	#demo {
+		width: 100vw;
+		left: -10px;
+	}
+
+	h1 {
+		top: 30%;
+		font-size: 17vh;
+		padding: 0 0.5rem;
+		z-index: 2;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.social a {
+		/* display: none; */
+		font-size: 10px;
+		padding: 0rem 10.5vw;
+		z-index: 2;
+	}
+
+	.l_h1 {
+		top: 61%;
+		font-size: 1em;
+		padding: 0 0.5rem;
+		z-index: 2;
+	}
+
+	.highlight-word::before {
+		height: 30px;
+		top: 55%;
+	}
+
+	.el {
+
+		margin-left: 35vw;
+		height: 25vh;
+	}
+
+
 }

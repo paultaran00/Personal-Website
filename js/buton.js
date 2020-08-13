@@ -79,15 +79,3 @@ buton7.addEventListener("click", function (event) {
     contact.style.display = "inline";
 });
 
-
-// var $page = $('.pages');
-// var $burg = $('.wrapper-menu');
-// var $butoane = $('#demo'); 
-
-
-// $burg.on('click', function () {
-//     $butoane.toggleClass('haidee');
-// });
-// $page.on('click', function () {
-//     $butoane.removeClass('haidee');
-// });
