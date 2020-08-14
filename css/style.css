@@ -484,3 +484,11 @@ body::-webkit-scrollbar-thumb {
 
 
 }
+
+
+@media only screen and (min-height: 900px) {
+	h2{
+		left: 3em;
+	}
+
+}
