@@ -165,9 +165,94 @@ a {
 
 }
 
+.dot{
+	top: 120%;
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	left: 7%;
+	background-image: url(/img/png/dot_pattern.png);
+    background-repeat: repeat;
+    background-size: 208px;
+    background-position: center;
+	opacity: .4;
+	margin-bottom: 50px;
+	display: flex;
+}
+
+
+h2{
+	top: 124%;
+	left: 1.5em;
+	position: relative;
+	font-size: 5rem;
+	line-height: .85;
+	font-family: "bebas_neuebold", sans-serif;
+    font-weight: normal;
+	font-style: normal;
+	color: white;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: inline;
+}
+
+.highlight-word {
+	position: relative;
+}
 
 
 
+.highlight-word2::before {
+	height: 15px;
+	position: absolute;
+	top: 81.4%;
+	margin-top: -22px;
+	display: block;
+	z-index: 1;
+}
+
+.highlight-word2::before {
+	width: 103%;
+	left: -2%;
+	background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
+	content: '';
+}
+
+.highlight-word2 .highlight-inner2 {
+	position: relative;
+	z-index: 3;
+	
+}
+
+.about{
+	top: -140px;
+	left: 40%;
+	width: 100%;
+	padding-right: 50%;
+	position: relative;
+	font-family: "mulibold", sans-serif;
+    font-weight: normal;
+	font-style: normal;
+	color: white;
+	font-size: 1.2vw;
+	line-height: 2.3rem;
+	display: flex;
+	vertical-align: baseline;
+	overflow-x: hidden;
+}
+
+.about_me{
+	position: absolute;
+	top: 125%;
+}
+
+.end{
+	position: absolute;
+	top: 200%;
+	width: 1px;
+	height: 1px;
+	left: 1px;
+}
 
 
 
