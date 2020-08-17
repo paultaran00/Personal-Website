@@ -165,30 +165,30 @@ a {
 
 }
 
-.dot{
+.dot {
 	top: 120%;
 	position: absolute;
 	width: 320px;
 	height: 320px;
 	left: 7%;
 	background-image: url(/img/png/dot_pattern.png);
-    background-repeat: repeat;
-    background-size: 208px;
-    background-position: center;
+	background-repeat: repeat;
+	background-size: 208px;
+	background-position: center;
 	opacity: .4;
 	margin-bottom: 50px;
 	display: flex;
 }
 
 
-h2{
+h2 {
 	top: 124%;
 	left: 1.5em;
 	position: relative;
 	font-size: 5rem;
 	line-height: .85;
 	font-family: "bebas_neuebold", sans-serif;
-    font-weight: normal;
+	font-weight: normal;
 	font-style: normal;
 	color: white;
 	overflow-x: hidden;
@@ -221,17 +221,17 @@ h2{
 .highlight-word2 .highlight-inner2 {
 	position: relative;
 	z-index: 3;
-	
+
 }
 
-.about{
+.about {
 	top: -140px;
 	left: 40%;
 	width: 100%;
 	padding-right: 50%;
 	position: relative;
 	font-family: "mulibold", sans-serif;
-    font-weight: normal;
+	font-weight: normal;
 	font-style: normal;
 	color: white;
 	font-size: 1.2vw;
@@ -241,31 +241,28 @@ h2{
 	overflow-x: hidden;
 }
 
-.about_me{
+.about_me {
 	position: absolute;
 	top: 125%;
 }
 
+
+
+
+
 .end{
 	position: absolute;
 	top: 200%;
-	width: 1px;
-	height: 1px;
-	left: 1px;
+	width: 10px;
+	height: 10px;
+	/* background-color: red; */
+	
 }
 
 
 
 
 
-.preturi {
-	display: none;
-	position: absolute;
-	color: white;
-	font-size: 40px;
-	top: 50%;
-	left: 50%;
-}
 
 .proiecte {
 	display: none;
@@ -482,13 +479,60 @@ body::-webkit-scrollbar-thumb {
 		height: 25vh;
 	}
 
+	.dot {
+
+		width: 220px;
+		height: 220px;
+	}
+
+	h2 {
+		top: 124%;
+		left: 1em;
+		position: relative;
+		font-size: 3rem;
+	}
+
+	.highlight-word2::before {
+		height: 10px;
+		top: 89.3%;
+
+	}
+
+
+	.about {
+		top: 30px;
+		margin-left: -30%;
+		width: 100%;
+		padding-right: 20%;
+		position: relative;
+		font-size: 1rem;
+		line-height: 2.3rem;
+		display: block;
+
+	}
+
+	.about_me {
+		position: absolute;
+		top: 125%;
+		height: 700px;
+	}
+
+	.end{
+		display: none;
+		
+	}
+
 
 }
 
 
 @media only screen and (min-height: 900px) {
-	h2{
+	h2 {
 		left: 3em;
+	}
+
+	#demo {
+		right: 14vw;
 	}
 
 }

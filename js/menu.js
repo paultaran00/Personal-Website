@@ -1,6 +1,6 @@
 
 let targets = gsap.utils.toArray("#icons g");
-let targetStarts = [20, 120, 220, 320, 420, 520];
+let targetStarts = [20, 170, 320];
 let anim;
 let activeDot = 0;
 let targetDot;
