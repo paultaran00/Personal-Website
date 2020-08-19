@@ -58,3 +58,9 @@ buton7.addEventListener("click", function (event) {
     contact.style.display = "inline";
 });
 
+
+$( ".mover" ).click(function() {
+    $( ".i_contact" ).click();
+  });
+
+
