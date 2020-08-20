@@ -58,9 +58,13 @@ buton7.addEventListener("click", function (event) {
     contact.style.display = "inline";
 });
 
+var mover = document.querySelector(".mover");
+var svg = document.querySelector("#demo");
+var cont_b = svg.querySelector(".li_contact");
 
-$( ".mover" ).click(function() {
-    $( ".i_contact" ).click();
-  });
+mover.addEventListener("click", function(e) {
+    cont_b.dispatchEvent(new Event('click'));
+    cont_b.parentElement.dispatchEvent(new Event('click'));
+});
 
 
