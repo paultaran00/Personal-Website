@@ -58,6 +58,10 @@ buton7.addEventListener("click", function (event) {
     contact.style.display = "inline";
 });
 
+
+
+
+
 var mover = document.querySelector(".mover");
 var svg = document.querySelector("#demo");
 var cont_b = svg.querySelector(".li_contact");

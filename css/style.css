@@ -609,10 +609,42 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.end{
-		/* display: none; */
-		
+		top: 215%;
+		height: 120px;
 	}
 
+	.page_home svg{
+		bottom: -130%;
+		padding:0rem 2rem;
+		left: 20%;
+	}
+
+
+
+	.end_p{
+		
+		bottom: -130%;
+		padding:0rem 1rem;
+		font-family: "mulibold", sans-serif;
+		font-weight: bold;
+		overflow: hidden;
+		font-size: 1.2vh;
+		display: flex;
+		width: 100%;
+		
+	}
+	
+	.mover{
+		background-image: linear-gradient(135deg, #4cc9b8 30%, #736EFE 80%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-size: 1.2vw;
+		position: relative;
+		left: 50%;
+		text-transform: uppercase;
+		z-index: 1;
+		padding-bottom: 4px;
+	} 
 	
 
 
