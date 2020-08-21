@@ -670,7 +670,7 @@ body::-webkit-scrollbar-thumb {
 	}
 	
 	.page_home svg{
-		bottom: -100%;
+		bottom: -99%;
 		position: absolute;
 		width: 250px;
 		max-width: 731px;
