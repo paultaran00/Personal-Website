@@ -620,6 +620,8 @@ body::-webkit-scrollbar-thumb {
 		top: 210%;
 		height: 132px;
 		transform: translateY(100%);
+		overflow-x: hidden;
+		overflow-y: hidden;
 	}
 
 	.page_home svg {
