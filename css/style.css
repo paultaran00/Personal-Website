@@ -616,7 +616,8 @@ body::-webkit-scrollbar-thumb {
 	}
 
 	.end {
-		top: 205%;
+		
+		top: 210%;
 		height: 132px;
 		transform: translateY(100%);
 	}
