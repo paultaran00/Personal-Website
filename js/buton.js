@@ -72,3 +72,32 @@ mover.addEventListener("click", function(e) {
 });
 
 
+
+
+$(".box1").hover(function(){
+    $(".vitaminer_titlu").css("left","40%").animate({"left":"50%"}, 400, 'swing');
+    $(".vit").css("left","0%").animate({"left":"-4%"}, 400, 'swing');
+    $(".highlight-inner3").css("left","58%").animate({"left":"59%"}, 400, 'swing');
+    
+
+    },function(){
+    $(".vitaminer_titlu").css("left","50%").animate({"left":"40%"}, 400, 'swing');
+    $(".vit").css("left","-4%").animate({"left":"0%"}, 400, 'swing');
+    $(".highlight-inner3").css("left","59%").animate({"left":"58%"}, 400, 'swing');
+    
+
+});
+
+$(".box2").hover(function(){
+    $(".unity_titlu").css("left","40%").animate({"left":"50%"}, 400, 'swing');
+    $(".unity").css("left","0%").animate({"left":"-4%"}, 400, 'swing');
+    $(".highlight-inner4").css("left","58%").animate({"left":"59%"}, 400, 'swing');
+    
+    
+    },function(){
+    $(".unity_titlu").css("left","50%").animate({"left":"40%"}, 400, 'swing');
+    $(".unity").css("left","-4%").animate({"left":"0%"}, 400, 'swing');
+    $(".highlight-inner4").css("left","59%").animate({"left":"58%"}, 400, 'swing');
+    
+});
+
