@@ -105,6 +105,9 @@ $(".box2").hover(function(){
 
 
 	$('.g-recaptcha').css('width', '304px');
-	$('.g-recaptcha').css('height', '85');
+    $('.g-recaptcha').css('height', '85px');
+    
+    $('.g-recaptcha div').css('width', '304px');
+	$('.g-recaptcha div').css('height', '85px');
 	
 
