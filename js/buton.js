@@ -103,10 +103,8 @@ $(".box2").hover(function(){
 
 
 
-var width = $('.g-recaptcha').parent().width();
-if (width < 302) {
-	var scale = width / 302;
-	$('.g-recaptcha').css('width', '304px');
-	$('.g-recaptcha').css('height', '85');
+
+	$('.g-recaptcha').children().css('width', '304px');
+	$('.g-recaptcha').children().css('height', '85');
 	
-}
+
