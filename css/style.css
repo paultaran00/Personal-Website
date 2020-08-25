@@ -996,8 +996,14 @@ button.primary:active,
 
 
 
-.g-recaptcha div{
-	height: 90px;
+.g-recaptcha{
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.recaptcha{
+	overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 
