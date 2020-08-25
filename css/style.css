@@ -996,7 +996,9 @@ button.primary:active,
 
 
 
-
+.recaptcha{
+	height: 100px;
+}
 
 
 
