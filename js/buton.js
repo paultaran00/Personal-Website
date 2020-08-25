@@ -101,6 +101,6 @@ $(".box2").hover(function(){
     
 });
 
-response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
+
 
 
