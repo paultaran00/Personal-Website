@@ -996,8 +996,8 @@ button.primary:active,
 
 
 
-.g-recaptcha{
-	height: 100px;
+.g-recaptcha div{
+	height: 90px;
 }
 
 
