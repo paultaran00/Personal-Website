@@ -485,9 +485,3 @@ input[type="submit"],
 
         }
         
-.recaptcha{
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    overflow: hidden;
-}
