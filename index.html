@@ -312,9 +312,35 @@
 
 
     <div class="contact">
-        <div class="bg-img">
+        
+        <div class="content">
 
+            <form action="POST" data-netlify="true">
+                <div class="fields">
+                    <div class="field half">
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="field half">
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+
+                    <div class="field">
+                        <input type="subject" name="subject" id="subject" placeholder="Subject" />
+                    </div>
+
+                    <div class="field">
+                        <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                    </div>
+                    <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <li><input type="submit" value="Send Message" class="button primary" /></li>
+                </ul>
+            </form>
         </div>
+        
     </div>
 
 
