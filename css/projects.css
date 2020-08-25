@@ -486,6 +486,7 @@ input[type="submit"],
         }
         
 .recaptcha{
+    position: absolute;
     left: 30%;
     overflow-x: hidden;
     overflow-y: hidden;
