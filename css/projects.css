@@ -483,4 +483,9 @@ input[type="submit"],
 					line-height: 3rem;
 				}
 
-		}
+        }
+        
+.recaptcha{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
