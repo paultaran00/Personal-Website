@@ -1271,7 +1271,7 @@ body::-webkit-scrollbar-thumb {
 	.vit {
 		position: absolute;
 		width: 24vh;
-		padding: 4%;
+		/* padding: 4%; */
 
 	}
 
@@ -1326,7 +1326,7 @@ body::-webkit-scrollbar-thumb {
 		width: 90vw;
 		height: 25vh;
 		top: 55%;
-		left: 2%;
+		right: 2%;
 
 	}
 

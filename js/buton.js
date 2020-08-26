@@ -48,14 +48,14 @@ $('.li_house, .i_house').click(function(){
 $('.li_proiecte, .i_proiecte').click(function(){
     
     if($('rect[id="stretchy"]').attr('x')=='20'){
-        $(".box1").css("left","100%").animate({"left":"11%"}, 400, 'swing');
-        $(".box2").css("right","-40%").animate({"right":"11%"}, 400, 'swing');
+        $(".box1").css("left","100%").animate({"left":"6%"}, 400, 'swing');
+        $(".box2").css("right","-40%").animate({"right":"4%"}, 400, 'swing');
 
     }
 
     if($('rect[id="stretchy"]').attr('x')=='320'){
-        $(".box1").css("left","-40%").animate({"left":"11%"}, 400, 'swing');
-        $(".box2").css("right","100%").animate({"right":"11%"}, 400, 'swing');
+        $(".box1").css("left","-40%").animate({"left":"6%"}, 400, 'swing');
+        $(".box2").css("right","100%").animate({"right":"4%"}, 400, 'swing');
 
     }
     
