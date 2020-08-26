@@ -203,6 +203,7 @@ h2 {
 	overflow-x: hidden;
 	overflow-y: hidden;
 	display: inline;
+	z-index: 9;
 }
 
 .highlight-word {
@@ -213,8 +214,8 @@ h2 {
 
 .highlight-word2::before {
 	height: 15px;
-	position: absolute;
-	top: 76.4%;
+	position: relative;
+	top: .41em;
 	margin-top: -22px;
 	display: block;
 	z-index: 1;
@@ -222,8 +223,8 @@ h2 {
 }
 
 .highlight-word2::before {
-	width: 103%;
-	left: -2%;
+	width: 3.1em;
+	left: -0.3%;
 	background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
 	content: '';
 }
@@ -1196,7 +1197,7 @@ body::-webkit-scrollbar-thumb {
 
 	.highlight-word2::before {
 		height: 10px;
-		top: 89.3%;
+		top: .4em;
 
 	}
 
