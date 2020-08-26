@@ -1,62 +1,76 @@
-var home = document.querySelector('.page_home');
 
-var proiecte = document.querySelector('.proiecte');
-var contact = document.querySelector('.contact');
-
-
-var buton1 = document.querySelector('.li_house');
-
-buton1.addEventListener("click", function (event) {
-    home.style.display = "inline";
-    proiecte.style.display = "none";
-    contact.style.display = "none";
+$( document ).ready(function() {
+    $(".logo").css("left","-12rem").animate({"left":"2rem"}, 400, 'swing');
+    $(".page_home h1").css("left","-27%").animate({"left":"0%"}, 400, 'swing');
+    $(".l_h1").css("left","-20%").animate({"left":"0%"}, 400, 'swing');
+    $(".social").css("left","-20%").animate({"left":"0%"}, 400, 'swing');
+    $(".wrapper").css("margin-left","120vw").animate({"margin-left":"77vw"}, 600, 'swing');
 });
 
 
 
-var buton3 = document.querySelector('.li_proiecte');
-
-buton3.addEventListener("click", function (event) {
-    home.style.display = "none";
-    proiecte.style.display = "inline";
-    contact.style.display = "none";
+$('.li_house, .i_house').click(function(){
+    $('.page_home').css('display','inline');
+    $('.proiecte').css('display','none');
+    $('.contact').css('display','none');
 });
 
-var buton4 = document.querySelector('.li_contact');
-
-buton4.addEventListener("click", function (event) {
-    home.style.display = "none";
-    proiecte.style.display = "none";
-    contact.style.display = "inline";
+$('.li_proiecte, .i_proiecte').click(function(){
+    $('.page_home').css('display','none');
+    $('.proiecte').css('display','inline');
+    $('.contact').css('display','none');
 });
 
-
-
-
-var buton8 = document.querySelector('.i_house');
-
-buton8.addEventListener("click", function (event) {
-    home.style.display = "inline";
-    proiecte.style.display = "none";
-    contact.style.display = "none";
+$('.li_contact, .i_contact').click(function(){
+    $('.page_home').css('display','none');
+    $('.proiecte').css('display','none');
+    $('.contact').css('display','inline');
 });
 
 
-var buton6 = document.querySelector('.i_proiecte');
 
-buton6.addEventListener("click", function (event) {
-    home.style.display = "none";
-    proiecte.style.display = "inline";
-    contact.style.display = "none";
+
+
+$('.li_house, .i_house').click(function(){
+    
+    if($('rect[id="stretchy"]').attr('x')!='20'){
+
+        $(".logo").css("left","-12rem").animate({"left":"2rem"}, 400, 'swing');
+        $(".page_home h1").css("left","-27%").animate({"left":"0%"}, 400, 'swing');
+        $(".l_h1").css("left","-20%").animate({"left":"0%"}, 400, 'swing');
+        $(".social").css("left","-20%").animate({"left":"0%"}, 400, 'swing');
+        $(".wrapper").css("margin-left","0vw").animate({"margin-left":"77vw"}, 400, 'swing');
+    
+}});
+
+
+
+$('.li_proiecte, .i_proiecte').click(function(){
+    
+    if($('rect[id="stretchy"]').attr('x')=='20'){
+        $(".box1").css("left","100%").animate({"left":"11%"}, 400, 'swing');
+        $(".box2").css("right","-40%").animate({"right":"11%"}, 400, 'swing');
+
+    }
+
+    if($('rect[id="stretchy"]').attr('x')=='320'){
+        $(".box1").css("left","-40%").animate({"left":"11%"}, 400, 'swing');
+        $(".box2").css("right","100%").animate({"right":"11%"}, 400, 'swing');
+
+    }
+    
 });
 
-var buton7 = document.querySelector('.i_contact');
 
-buton7.addEventListener("click", function (event) {
-    home.style.display = "none";
-    proiecte.style.display = "none";
-    contact.style.display = "inline";
+$('.li_contact, .i_contact').click(function(){
+    if($('rect[id="stretchy"]').attr('x')=='20' || $('rect[id="stretchy"]').attr('x')=='170'){
+        $(".content").css("left","130%").animate({"left":"50%"}, 400, 'swing');
+    }
 });
+
+
+
+
 
 
 
@@ -70,6 +84,9 @@ mover.addEventListener("click", function(e) {
     cont_b.dispatchEvent(new Event('click'));
     cont_b.parentElement.dispatchEvent(new Event('click'));
 });
+
+
+
 
 
 
@@ -103,11 +120,4 @@ $(".box2").hover(function(){
 
 
 
-
-	$('.g-recaptcha').css('width', '304px');
-    $('.g-recaptcha').css('height', '86px');
-    
-    $('.g-recaptcha div').css('width', '304px');
-	$('.g-recaptcha div').css('height', '85px');
-	
 

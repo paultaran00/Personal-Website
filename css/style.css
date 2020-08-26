@@ -62,7 +62,7 @@ h1 {
 	margin-bottom: 1.66667rem;
 	padding: 0 2rem;
 	z-index: 2;
-	left: 0px;
+	left: 0%;
 }
 
 .highlight-word {
@@ -111,7 +111,7 @@ h1 {
 	text-transform: uppercase;
 	line-height: .80;
 	z-index: 2;
-	left: 0vh;
+	left: 0%;
 }
 
 .social {
@@ -381,20 +381,6 @@ h2 {
 
 }
 
-.anim,
-.anim svg {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	overflow-x: hidden;
-	overflow-y: hidden;
-
-}
-
-.anim path {
-	stroke-width: 1;
-	opacity: 20%;
-}
 
 
 .box1 {
@@ -1269,12 +1255,7 @@ body::-webkit-scrollbar-thumb {
 
 	}
 
-	.anim,
-	.anim svg {
-		transform: scale(2);
-		left: 15%;
 
-	}
 
 
 
@@ -1412,9 +1393,10 @@ body::-webkit-scrollbar-thumb {
 
 
 
-@media only screen and (min-height: 900px) {
+@media only screen and (min-height: 1000px) {
 	h2 {
 		left: 3em;
+		font-size: 6rem;
 	}
 
 	#demo {
