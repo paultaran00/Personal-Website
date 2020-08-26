@@ -9,8 +9,9 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0" />
     <link rel="shortcut icon" href="./img/png/p.png" />
 
-
+    <link rel="stylesheet" type="text/css" href="./css/aos.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -102,7 +103,7 @@
 
             <div class="dot"></div>
 
-            <div class="about_me">
+            <div class="about_me" data-aos="fade-up">
                 <h2>A brief history<br>
                     <span class="highlight-word2">
                         <span class="highlight-inner2">about me</span>
@@ -120,7 +121,7 @@
 
 
 
-            <div class="end">
+            <div class="end" data-aos="fade-up">
 
                 <svg id="origami" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 731 610">
                     <defs>
@@ -300,6 +301,14 @@
     <script src="./js/buton.js"></script>
     <script src="./js/particle_conf.js"></script>
     <script src="./js/projects.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 400,
+            }
+        );
+    </script>
 </body>
 
 </html>
