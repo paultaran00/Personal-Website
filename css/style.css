@@ -1222,7 +1222,7 @@ body::-webkit-scrollbar-thumb {
 
 	.end {
 
-		top: 210%;
+		top: 215%;
 		height: 132px;
 		transform: translateY(100%);
 		overflow-x: hidden;
