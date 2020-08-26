@@ -1193,6 +1193,7 @@ body::-webkit-scrollbar-thumb {
 		left: 1em;
 		position: relative;
 		font-size: 3rem;
+		line-height: 100%;
 	}
 
 	.highlight-word2::before {
