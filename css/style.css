@@ -1396,8 +1396,8 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (min-height: 900px) {
 	h2 {
-		left: 3em;
-		font-size: 6rem;
+		left: 2.6em;
+		font-size: 5.5rem;
 	}
 
 	#demo {
