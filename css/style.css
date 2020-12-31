@@ -304,7 +304,7 @@ h2 {
     font-family: bebas_neuebold, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #fff;
+    color:#dadf9a;
     overflow-x: hidden;
     overflow-y: hidden;
     display: inline;
@@ -374,7 +374,7 @@ h2 {
     font-family: bebas_neuebold, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #fff;
+    color: #dadf9a;
     overflow-x: hidden;
     overflow-y: hidden;
     display: inline;
@@ -421,6 +421,23 @@ h2 {
     opacity: 0.8;
     text-transform: uppercase;
     z-index: 99;
+}
+.playBoxRunner{
+    display: none;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 64%;
+    width: 50%;
+    z-index: 999;
+}
+.x{
+    top: 1%;
+    right: 1%;
+    position: absolute;
+    width: 5%;
+    height: 8%;
 }
 .contact {
     display: none;
