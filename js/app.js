@@ -595,14 +595,6 @@ mover.addEventListener("click", function (e) {
             $(".unity_titlu").css("left", "50%").animate({ left: "40%" }, 400, "swing"), $(".unity").css("left", "-4%").animate({ left: "0%" }, 400, "swing");
         }
     );
-    if($(window).width() > "700"){
-        $(".unity").click(function () {
-            $(".playBoxRunner").css("display", "inline"), $(".proiecte").css("display", "inline"), $(".contact").css("display", "none");
-        });
-        $(".x").click(function () {
-            $(".playBoxRunner").css("display", "none");
-        });
-    }
     
 let anim,
     targetDot,
